@@ -17,11 +17,11 @@
     -XX:+UseConcMarkSweepGC
     -XX:-UseLargePagesIndividualAllocation
     -XX:+UseParNewGC
-    -XX:ThreadStackSize=1M
+    -Xss1M || -Xss10M
 
 
-    栈为1M的时候,大小为 11410
-    栈为10M的时候,大小为 11419  好像差不多的样子  试试高配电脑
+    栈为1M的时候,大小为 11422
+    栈为10M的时候,大小为 99512  配置高,数值就会高一些
  * -----------------------------------
  * @title: StackOOM
  * @projectName test-jvm
