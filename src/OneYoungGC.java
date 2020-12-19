@@ -1,5 +1,3 @@
-package gc;
-
 /**
  * @author zeryts
  * @description: 一次YoungGC  新生代给5M,老年代5M 堆一共10M
