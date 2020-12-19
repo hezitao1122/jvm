@@ -1,6 +1,6 @@
 /**
  * @author zeryts
- * @description: 栈溢出的测试
+ * @description: 最简单的栈溢出的测试-递归
     -XX:InitialHeapSize=104857600
     -XX:MaxHeapSize=104857600
     -XX:MaxNewSize=52428800
@@ -27,7 +27,7 @@
  * @projectName test-jvm
  * @date 2020/12/19 19:42
  */
-public class StackOOM {
+public class SimpleStackOOM {
 
     public static void main(String[] args) {
         add(0);
