@@ -25,6 +25,8 @@ import java.lang.reflect.Method;
     -XX:+UseParNewGC
     -XX:MetaspaceSize=10485760
     -XX:MaxMetaspaceSize=10485760
+    -XX:+HeapDumpOnOutOfMemoryError
+    -XX:HeapDumpPath=D:\projects\test-jvm\out
  * -----------------------------------
  * @title: SimpleMetaspaceOOM
  * @projectName test-jvm
