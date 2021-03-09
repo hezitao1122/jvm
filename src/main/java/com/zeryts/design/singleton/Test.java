@@ -13,5 +13,6 @@ public class Test {
         HungrySingletonPattern.getInstall().excute();
         UnsafeFullSinglrtonPattern.getInstance().excute();
         SafeFullSinglrtonPattern.getInstance().excute();
+        InnerClassFullSingletonPattern.Singleton.InnerHolder.getInstance().excute();
     }
 }

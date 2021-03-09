@@ -11,7 +11,12 @@ package com.zeryts.design.singleton;
 public class SafeFullSinglrtonPattern {
     private static Singleton install = null;
 
-
+    /** description: 双重检查这个模式还不是完美的,因为具体操作系统的具体jvm实现是不同的
+     * @return: com.zeryts.design.singleton.SafeFullSinglrtonPattern.Singleton
+     * @Author: zeryts
+     * @email: hezitao@agree.com
+     * @Date: 2021/3/10 7:23
+     */
     public static Singleton getInstance(){
         if(install == null ){
             synchronized (SafeFullSinglrtonPattern.class){
