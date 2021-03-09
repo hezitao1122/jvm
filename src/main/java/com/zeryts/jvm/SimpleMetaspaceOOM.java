@@ -1,3 +1,5 @@
+package com.zeryts.jvm;
+
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;
@@ -28,7 +30,7 @@ import java.lang.reflect.Method;
     -XX:+HeapDumpOnOutOfMemoryError
     -XX:HeapDumpPath=D:\projects\test-jvm\out
  * -----------------------------------
- * @title: SimpleMetaspaceOOM
+ * @title: com.zeryts.jvm.SimpleMetaspaceOOM
  * @projectName test-jvm
  * @date 2020/12/20 8:17
  */

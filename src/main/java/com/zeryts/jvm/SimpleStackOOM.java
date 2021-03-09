@@ -1,3 +1,5 @@
+package com.zeryts.jvm;
+
 /**
  * @author zeryts
  * @description: 最简单的栈溢出的测试-递归

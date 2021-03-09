@@ -1,3 +1,5 @@
+package com.zeryts.jvm;
+
 /**
  * @author zeryts
  * @description: 动态判断年龄进入老年代
@@ -18,7 +20,7 @@
     -XX:-UseLargePagesIndividualAllocation
     -XX:+UseParNewGC
  * -----------------------------------
- * @title: DynamicAgeJudgeInOld
+ * @title: com.zeryts.jvm.DynamicAgeJudgeInOld
  * @projectName test-jvm
  * @date 2020/12/19 17:15
  */

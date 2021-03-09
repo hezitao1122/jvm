@@ -1,3 +1,5 @@
+package com.zeryts.jvm;
+
 /**
  * @author zeryts
  * @description: 一次YoungGC  新生代给5M,老年代5M 堆一共10M
@@ -17,7 +19,7 @@
     -XX:-UseLargePagesIndividualAllocation
     -XX:+UseParNewGC
  * -----------------------------------
- * @title: OneYoungGC
+ * @title: com.zeryts.jvm.OneYoungGC
  * @projectName test-jvm
  * @date 2020/12/17 14:35
  * @result:  ParNew发生一次辣鸡回收

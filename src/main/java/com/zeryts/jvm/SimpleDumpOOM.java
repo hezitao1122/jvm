@@ -1,3 +1,5 @@
+package com.zeryts.jvm;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -23,7 +25,7 @@ import java.util.List;
     -XX:+HeapDumpOnOutOfMemoryError
     -XX:HeapDumpPath=D:\projects\test-jvm\out
  * -----------------------------------
- * @title: SimpleDumpOOM
+ * @title: com.zeryts.jvm.SimpleDumpOOM
  * @projectName test-jvm
  * @date 2020/12/19 20:07
  *

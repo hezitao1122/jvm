@@ -1,3 +1,5 @@
+package com.zeryts.jvm;
+
 /**
  * @author zeryts
  * @description:
@@ -18,7 +20,7 @@
     -XX:-UseLargePagesIndividualAllocation
     -XX:+UseParNewGC                        新生代用ParNew垃圾回收
  * -----------------------------------
- * @title: SecondCreate50MRubbish 模拟每秒钟产生50M的垃圾
+ * @title: com.zeryts.jvm.SecondCreate50MRubbish 模拟每秒钟产生50M的垃圾
  * @date 2020/12/17 10:35
  * @result:
  * 4.651: [GC (Allocation Failure) 4.652: [ParNew: 81315K->1747K(92160K), 0.0009376 secs] 81315K->1747K(194560K), 0.0026854 secs] [Times: user=0.00 sys=0.00, real=0.00 secs]

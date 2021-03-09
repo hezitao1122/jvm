@@ -1,3 +1,5 @@
+package com.zeryts.jvm;
+
 /**
  * @author zeryts
  * @description: 测试survivor区,超过一半,会有多少对象进入老年代
