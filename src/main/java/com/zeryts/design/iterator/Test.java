@@ -30,5 +30,15 @@ public class Test {
             System.out.println(iterator.next());
         }
 
+
+        ClassRoomList classRoomList = new ClassRoomList(2);
+        classRoomList.addStudent(s1);
+        classRoomList.addStudent(s2);
+
+        Iterator iteratorList = classRoomList.iterator();
+        while(iteratorList.hasNext()){
+            System.out.println(iteratorList.next());
+        }
+
     }
 }
