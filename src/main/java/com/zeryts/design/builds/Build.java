@@ -10,9 +10,11 @@ package com.zeryts.design.builds;
  */
 public interface Build {
 
-    void fieldName(String name);
+    Build fieldName(String name);
 
-    void fieldAge(int age);
+    Build fieldAge(int age);
 
-    void fieldAdress(String address);
+    Build fieldAdress(String address);
+
+    Product create();
 }

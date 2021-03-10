@@ -8,28 +8,35 @@ package com.zeryts.design.builds;
  * @projectName test-jvm
  * @date 2021/3/10 7:57
  */
-public class BuilderPattern implements Build{
+public class BuilderPattern implements Build {
 
-    private Build product = new Product();
+    private Product product = new Product();
 
     @Override
-    public void fieldName(String name) {
+    public Build fieldName(String name) {
         System.out.println("执行校验fieldName!");
-        product.fieldName(name);
+        product.setName(name);
+        return this;
     }
 
     @Override
-    public void fieldAge(int age) {
+    public Build fieldAge(int age) {
         System.out.println("执行校验age!");
-        product.fieldAge(age);
+        product.setAge(age);
+        return this;
     }
 
     @Override
-    public void fieldAdress(String address) {
+    public Build fieldAdress(String address) {
         System.out.println("执行校验adress!");
-        product.fieldAdress(address);
+        product.setAddress(address);
+        return this;
     }
 
+    @Override
+    public Product create() {
+        return product;
+    }
 
 
 }

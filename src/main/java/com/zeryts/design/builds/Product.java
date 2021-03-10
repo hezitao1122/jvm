@@ -8,7 +8,7 @@ package com.zeryts.design.builds;
  * @projectName test-jvm
  * @date 2021/3/10 7:54
  */
-public class Product implements Build{
+public class Product {
 
     private String name;
 
@@ -20,9 +20,7 @@ public class Product implements Build{
         return name;
     }
 
-    @Override
-    public void fieldName(String name) {
-        System.out.println("执行buidName逻辑!");
+    public void setName(String name) {
         this.name = name;
     }
 
@@ -30,9 +28,7 @@ public class Product implements Build{
         return age;
     }
 
-    @Override
-    public void fieldAge(int age) {
-        System.out.println("执行buidAge逻辑!");
+    public void setAge(int age) {
         this.age = age;
     }
 
@@ -40,9 +36,16 @@ public class Product implements Build{
         return address;
     }
 
-    @Override
-    public void fieldAdress(String address) {
-        System.out.println("执行buidAdress逻辑!");
+    public void setAddress(String address) {
         this.address = address;
+    }
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", address='" + address + '\'' +
+                '}';
     }
 }
